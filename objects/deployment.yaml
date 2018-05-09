@@ -12,8 +12,8 @@ spec:
       containers:
       - name: aggregator-service
 
-        image: eu.gcr.io/deploying-software-on-kubernetes/aggregator-service:1 .0
+        image: eu.gcr.io/deploying-software-on-kubernetes/aggregator-service:1.0
 
 
         ports:
-        - containerPort: 8080
+        - containerPort: 8081
