@@ -7,10 +7,10 @@ spec:
   template:
     metadata:
       labels:
-        app: aggregator-service
+        app: aggregator
     spec:
       containers:
       - name: aggregator-service
         image: eu.gcr.io/deploy-software-on-kubernetes/aggregator-service:2.0
         ports:
-        - containerPort: 8081
+        - containerPort: 8080
