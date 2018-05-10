@@ -11,6 +11,6 @@ spec:
     spec:
       containers:
       - name: aggregator-service
-        image: eu.gcr.io/deploying-software-on-kubernetes/utcdate-service:2.0
+        image: eu.gcr.io/deploying-software-on-kubernetes/aggregator-service:2.0
         ports:
         - containerPort: 8081
